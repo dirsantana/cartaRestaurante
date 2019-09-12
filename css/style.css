@@ -2,6 +2,7 @@ body {
   width: 960px;
   margin: 0 auto;
   font-family: sans-serif;
+  color: #4a4a4a;
   /* border: 2px solid #ccc; */
 }
 
@@ -12,35 +13,74 @@ main nav {
   padding: 15px;
 }
 
-main nav ul li.active {
+main nav ul li.active a {
   font-weight: bold;
+  color: #4a4a4a;
 }
 
 main nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #8A8A8A;
 }
 
 main section {
   width: 600px;
   float: right;
-  box-sizing: border-box;
   border-left: 1px solid #ccc;
   padding: 15px;
 }
 
+main nav ul,
+section h3 {
+  margin: 0;
+}
+
+main section p,
+main nav li {
+  color: #8A8A8A;
+  list-style: none;
+}
+
 header {
   border-bottom: 1px solid #ccc;
+  margin: 20px;
 }
 
 footer {
   padding: 20px;
   display: inline-block;
   width: 100%;
+  background-color: #ccc;
+  border: 1px solid #8a8a8a;
+  /*background-image: url("../img/logo-web.png");
+  background-repeat: no-repeat;
+  background-size: contain;*/
+}
+
+footer img {
+  float: left;
+  width: 190px;
+  margin: 0;
+}
+
+footer section {
+  float: right;
+}
+
+footer section p.social {
+  padding: 0;
+  margin: 0;
+}
+
+footer section p a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 section article p span {
   font-weight: bold;
+  color: #4a4a4a;
 }
 
 section article p {
