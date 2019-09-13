@@ -11,12 +11,19 @@ main nav {
   float: left;
   box-sizing: border-box;
   padding: 15px;
+
 }
+
 
 main nav ul li.active a {
   font-weight: bold;
   color: #4a4a4a;
 }
+
+main nav ul li {
+  margin-bottom: 8px;
+}
+
 
 main nav ul li a {
   text-decoration: none;
@@ -47,6 +54,7 @@ header {
 }
 
 footer {
+  margin-top: 20px;
   padding: 20px;
   display: inline-block;
   width: 100%;
@@ -67,6 +75,13 @@ footer section {
   float: right;
 }
 
+section img {
+  float: right;
+  padding: 1px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
 footer section p.social {
   padding: 0;
   margin: 0;
@@ -85,4 +100,10 @@ section article p span {
 
 section article p {
   padding-left: 15px;
+}
+
+main section p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a4a4a;
 }
