@@ -48,6 +48,15 @@ main nav li {
   list-style: none;
 }
 
+section label {
+  color: white;
+  list-style: none;
+}
+
+section form {
+  background-color: #ccc;
+}
+
 header {
   border-bottom: 1px solid #ccc;
   margin: 20px;
